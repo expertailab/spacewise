@@ -1,21 +1,36 @@
 # SpaceWise
 [![Supported Python Versions](https://badgen.net/pypi/python/black)](https://www.python.org/)
 
-SpaceWise is a multilingual assistant for the space domain leveraging large language models augmented with retrieval and machine translation tools to provide more accurate, factual and update content for stakeholders.   
+SpaceWise short description
 
-# Background: 
+# Background
+SpaceWise is the natural continaution in our efforts to bring LLM capabilities to the Space domain. Previously we have developed SpaceQA,an open-domaing extractive question answering system, that uees a  language models to identify the specific text fragment in a document collection that answers a user’s query. 
+
 ## SpaceQA 
-Recently, we collaborated with ESA to streamline access to information about early designs of space missions leveraging LLM. To this end we develope and extractive open-domain question-answering system called [SpaceQA](https://arxiv.org/abs/2210.03422) relying on a autoencoder model. An extractive QA system is designed to identify the specific text fragment in a document collection that answers a user’s query. SpaceQA has successfully enabled users to access information using questions in natural language that was previously available only in lengthy feasibility studies in PDF format. 
+Recently, we collaborated with ESA to streamline access to information about early designs of space missions leveraging LLM. To this end we develope the QA system [SpaceQA](https://arxiv.org/abs/2210.03422) relying on a autoencoder model. SpaceQA has successfully enabled users to access information using questions in natural language that was previously available only in lengthy feasibility studies in PDF format. 
+
+<p align="center">
+<img src="https://github.com/expertailab/spacewise/blob/main/resources/images/spaceQA_diagram.png" alt="spaceQA high-level architecture" width="600"/>
+  <br><em>High level components in SpaceQA</em>
+</p>
+
+### Demo
 
 A demo of SpaceQA is available here (user/pass: sigir/s1g1r2022!): https://esatde.expertcustomers.ai/SpaceQA/
 
+## SpaceQQuiz
+We also developed a generative AI system to help the Quality Management department in ESA to generate automatically assesment material for evaluating training sessions. SpaceQQuiz leverages auto-regressive models like T5 and BART to generate questions, and a RoBERTa model to extract answers for such questions, thus verifying their suitability.
 
-However, SpaceQA's extractive nature and focus on feasibility studies may limit its applicability for the general public. 
-# SpaceQQuiz
+<p align="center">
+<img src="https://github.com/expertailab/spacewise/blob/main/resources/images/spaceQQuiz.png" alt="spaceQA high-level architecture" width="600"/>
+  <br><em>High level components in SpaceQquiz</em>
+</p>
 
-SpaceWise goes a step forward and embrace the power of generative language models conversational chatbots and retrieval augmented generation to unlock new possibilities for accessing space information, benefiting both ESA staff and space enthusiasts. 
-The chatbot allows expert.ai to demonstrate the capabilities of such technology to Space stakeholders and particularly ESA. The project goal is aligned with the vision of ESA’s 2025 Agenda  in” adopting fast-learning/higher-risk approach for future technology maturation such as AI”. We envision an assistant integrated in ESA’s website where users can chat, inquire, and research about space issues in their own language, democratizing access to space information beyond English language
+### Demo
 
+A demo of SpaceQquiz is available here (user/pass: s demoINLG/demoINLG2022!): https://esatde.expertcustomers.ai/SpaceQQuiz/
+
+SpaceWise goes a step forward and embrace the power of generative language models conversational chatbots and retrieval augmented generation to unlock new possibilities for accessing space information, benefiting both ESA staff and space enthusiasts.  
 
 # Contribution
 
