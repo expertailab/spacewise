@@ -37,14 +37,14 @@ We also developed a generative AI system to help the Quality Management departme
 
 A demo of SpaceQquiz is available here (user/pass: s demoINLG/demoINLG2022!): https://esatde.expertcustomers.ai/SpaceQQuiz/
 
-# Contribution
+## Contribution
 
 Contributions are welcome, and they are greatly appreciated! Every
 little bit helps, and credit will always be given.
 
 To contribute, have a look at `Contributing <./CONTRIBUTING.rst>`__
 
-# License
+## License
 SpaceWise is released under the [Apache 2.0](https://github.com/expertailab/spacewise/blob/main/LICENSE) license
 
 ![](https://www.expert.ai/wp-content/uploads/2020/09/favicon-1.png) Expert.ai
