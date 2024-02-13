@@ -1,0 +1,6 @@
+[submodule "SpaceQA"]
+	path = SpaceQA
+	url = https://github.com/expertailab/SpaceQA
+[submodule "SpaceQQuiz"]
+	path = SpaceQQuiz
+	url = https://github.com/expertailab/SpaceQQuiz
