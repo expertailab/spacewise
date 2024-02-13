@@ -1,15 +1,16 @@
 # SpaceWise
 [![Supported Python Versions](https://badgen.net/pypi/python/black)](https://www.python.org/)
 
-SpaceWise short description
+Large language models (LLMs) often generate responses with factual inaccuracies due to limited internal parametric knowledge. Retrieval-Augmented Generation (RAG) addresses some of these issues by adding external information to the prompt, but indiscriminate retrieval can lead to irrelevant or inaccurate responses. Furthermore, multilingual scenarios exacerbate these limitations, especially for minoritarian languages and niche domains like Space. To adapt LLMs to Space and create a multilingual assistant for Space stakeholders, SpaceWise proposes two main innovations. First, based on the SELF-RAG algorithm, SpaceWise enables an arbitrary LLM to assess the relevance of the retrieved information and to decide whether to add such information to the prompt based on such assessment. Additionally, SpaceWise integrates external translation capabilities in the LLM based on the Toolformer concept, addressing accessibility barriers for non-English speakers. 
 
-# Background
+## Background
 SpaceWise is the natural continuation of our efforts to leverage LLM capabilities in the Space domain. Previously, we developed [SpaceQA](https://arxiv.org/abs/2210.03422), an open-domain extractive question answering (QA) system. SpaceQA utilizes language models to identify specific text fragments in a document collection that answer user queries. The system integrates a retriever component that identifies potential text passages where the answer could be found, placing it within the category of retrieval-augmented language models. However, SpaceQA lacks generation capabilities, and is limited to pointing out where the answer to the question lies in the text.
 
 SpaceWise takes a step forward from the SpaceQA approach and embraces the power of generative language models. SpaceWise learns when to rely on its parametric knowledge acquired during pretraining and when it is better to utilize a retrieval system, depending on the user's query. 
 
 We also worked with generative AI systems in the Space domain. [SpaceQQuiz](https://aclanthology.org/2022.inlg-demos.2/) employs sequence to sequence language models trained to generate questions and applied to the quality management domain in space operations. 
 
+SpaceWise is a generative AI system that goes beyond generating questions and transcends language barriers. It is a fully-fledged conversational model capable of engaging in chat and following instructions. Moreover, SpaceWise can handle multiple languages using its parametric knowledge and, when necessary, resorting to machine translation tools.
 
 
 ## SpaceQA 
