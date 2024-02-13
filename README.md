@@ -4,10 +4,16 @@
 SpaceWise short description
 
 # Background
-SpaceWise is the natural continaution in our efforts to bring LLM capabilities to the Space domain. Previously we have developed SpaceQA,an open-domaing extractive question answering system, that uees a  language models to identify the specific text fragment in a document collection that answers a user’s query. 
+SpaceWise is the natural continuation of our efforts to leverage LLM capabilities in the Space domain. Previously, we developed [SpaceQA](https://arxiv.org/abs/2210.03422), an open-domain extractive question answering (QA) system. SpaceQA utilizes language models to identify specific text fragments in a document collection that answer user queries. The system integrates a retriever component that identifies potential text passages where the answer could be found, placing it within the category of retrieval-augmented language models. However, SpaceQA lacks generation capabilities, and is limited to pointing out where the answer to the question lies in the text.
+
+SpaceWise takes a step forward from the SpaceQA approach and embraces the power of generative language models. SpaceWise learns when to rely on its parametric knowledge acquired during pretraining and when it is better to utilize a retrieval system, depending on the user's query. 
+
+We also worked with generative AI systems in the Space domain. [SpaceQQuiz](https://aclanthology.org/2022.inlg-demos.2/) employs sequence to sequence language models trained to generate questions and applied to the quality management domain in space operations. 
+
+
 
 ## SpaceQA 
-Recently, we collaborated with ESA to streamline access to information about early designs of space missions leveraging LLM. To this end we develope the QA system [SpaceQA](https://arxiv.org/abs/2210.03422) relying on a autoencoder model. SpaceQA has successfully enabled users to access information using questions in natural language that was previously available only in lengthy feasibility studies in PDF format. 
+Recently, we collaborated with ESA to streamline access to information about early designs of space missions leveraging LLM. To this end we develop the QA system [SpaceQA](https://arxiv.org/abs/2210.03422) relying on a autoencoder model. SpaceQA has successfully enabled users to access information using questions in natural language that was previously available only in lengthy feasibility studies in PDF format. 
 
 <p align="center">
 <img src="https://github.com/expertailab/spacewise/blob/main/resources/images/spaceQA_diagram.png" alt="spaceQA high-level architecture" width="600"/>
@@ -29,8 +35,6 @@ We also developed a generative AI system to help the Quality Management departme
 ### Demo
 
 A demo of SpaceQquiz is available here (user/pass: s demoINLG/demoINLG2022!): https://esatde.expertcustomers.ai/SpaceQQuiz/
-
-SpaceWise goes a step forward and embrace the power of generative language models conversational chatbots and retrieval augmented generation to unlock new possibilities for accessing space information, benefiting both ESA staff and space enthusiasts.  
 
 # Contribution
 
