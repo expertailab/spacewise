@@ -5,6 +5,11 @@ Large language models (LLMs) often generate responses with factual inaccuracies 
 
 To adapt LLMs to Space and create a multilingual assistant for Space stakeholders, SpaceWise proposes two main innovations. First, based on the SELF-RAG algorithm, SpaceWise enables an arbitrary LLM to assess the relevance of the retrieved information and to decide whether to add such information to the prompt based on such assessment. Additionally, SpaceWise integrates external translation capabilities in the LLM based on the Toolformer concept, addressing accessibility barriers for non-English speakers. 
 
+<p align="center">
+<img src="https://github.com/expertailab/spacewise/blob/main/resources/images/SpaceWise-diagram.png" alt="SpaceWise high-level architecture" width="900"/>
+  <br><em>The diagram depectis the high level components in SpaceWise</em>
+</p>
+
 ## Background
 SpaceWise is the natural continuation of our efforts to leverage LLM capabilities in the Space domain. Previously, we developed [SpaceQA](https://arxiv.org/abs/2210.03422), an open-domain extractive question answering (QA) system. SpaceQA utilizes language models to identify specific text fragments in a document collection that answer user queries. The system integrates a retriever component that identifies potential text passages where the answer could be found, placing it within the category of retrieval-augmented language models. However, SpaceQA lacks generation capabilities, and is limited to pointing out where the answer to the question lies in the text.
 
