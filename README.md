@@ -3,7 +3,7 @@
 
 Large language models (LLMs) often generate responses with factual inaccuracies due to limited internal parametric knowledge. Retrieval-Augmented Generation (RAG) addresses some of these issues by adding external information to the prompt, but indiscriminate retrieval can lead to irrelevant or inaccurate responses. Furthermore, multilingual scenarios exacerbate these limitations, especially for minoritarian languages and niche domains like Space. 
 
-To adapt LLMs to Space and create a multilingual assistant for Space stakeholders, SpaceWise proposes two main innovations. First, based on the SELF-RAG algorithm, SpaceWise enables an arbitrary LLM to assess the relevance of the retrieved information and to decide whether to add such information to the prompt based on such assessment. Additionally, SpaceWise integrates external translation capabilities in the LLM based on the Toolformer concept, addressing accessibility barriers for non-English speakers. 
+To adapt LLMs to Space and create a multilingual assistant for Space stakeholders, SpaceWise proposes two main innovations. First, based on algorithms such as SELF-RAG, SpaceWise enables an arbitrary LLM to assess the relevance of the retrieved information and to decide whether to add such information to the prompt based on such assessment. Additionally, SpaceWise integrates external translation services in the LLM based on innovative concepts such as Toolformer and ReAct, addressing accessibility barriers for non-English speakers. 
 
 <p align="center">
 <img src="https://github.com/expertailab/spacewise/blob/main/resources/images/SpaceWise-diagram.png" alt="SpaceWise high-level architecture" width="900"/>
